@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [VerifyTitleSuite]">
+  <test thread-count="5" name="VerifyTitleTest(failed)">
+    <groups>
+      <run>
+        <include name="Smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testClassPackage.VerifyTitleTest">
+        <methods>
+          <include name="verifyTVPageTitleForCorrectTitle"/>
+          <include name="verifyHomePageTitleForCorrectTitle"/>
+        </methods>
+      </class> <!-- testClassPackage.VerifyTitleTest -->
+      <class name="testClassPackage.VerifyLoginTest">
+        <methods>
+          <include name="verifyLoginForCorrectCredentials"/>
+        </methods>
+      </class> <!-- testClassPackage.VerifyLoginTest -->
+    </classes>
+  </test> <!-- VerifyTitleTest(failed) -->
+</suite> <!-- Failed suite [VerifyTitleSuite] -->

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="5" total="8" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="VerifySmokeTestSuite" duration-ms="55006" started-at="2021-05-17T15:53:44Z" finished-at="2021-05-17T15:54:39Z">
+    <groups>
+      <group name="Regression">
+        <method signature="VerifyLoginTest.verifyLoginForCorrectCredentials()[pri:0, instance:testClassPackage.VerifyLoginTest@5622fdf]" name="verifyLoginForCorrectCredentials" class="testClassPackage.VerifyLoginTest"/>
+        <method signature="VerifyTitleTest.verifyHomePageTitleForCorrectTitle()[pri:0, instance:testClassPackage.VerifyTitleTest@4883b407]" name="verifyHomePageTitleForCorrectTitle" class="testClassPackage.VerifyTitleTest"/>
+        <method signature="VerifyTitleTest.verifyTVPageTitleForCorrectTitle()[pri:0, instance:testClassPackage.VerifyTitleTest@4883b407]" name="verifyTVPageTitleForCorrectTitle" class="testClassPackage.VerifyTitleTest"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="VerifyLoginTest.verifyLoginForCorrectCredentials()[pri:0, instance:testClassPackage.VerifyLoginTest@5622fdf]" name="verifyLoginForCorrectCredentials" class="testClassPackage.VerifyLoginTest"/>
+        <method signature="VerifyTitleTest.verifyHomePageTitleForCorrectTitle()[pri:0, instance:testClassPackage.VerifyTitleTest@4883b407]" name="verifyHomePageTitleForCorrectTitle" class="testClassPackage.VerifyTitleTest"/>
+        <method signature="VerifyTitleTest.verifyTVPageTitleForCorrectTitle()[pri:0, instance:testClassPackage.VerifyTitleTest@4883b407]" name="verifyTVPageTitleForCorrectTitle" class="testClassPackage.VerifyTitleTest"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="VerifySmokeTest" duration-ms="55006" started-at="2021-05-17T15:53:44Z" finished-at="2021-05-17T15:54:39Z">
+      <class name="testClassPackage.VerifyTitleTest">
+        <test-method status="PASS" signature="launchBrowserAndGetURL()[pri:0, instance:testClassPackage.VerifyTitleTest@4883b407]" name="launchBrowserAndGetURL" is-config="true" duration-ms="16942" started-at="2021-05-17T15:53:56Z" finished-at="2021-05-17T15:54:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserAndGetURL -->
+        <test-method status="PASS" signature="verifyHomePageTitleForCorrectTitle()[pri:0, instance:testClassPackage.VerifyTitleTest@4883b407]" name="verifyHomePageTitleForCorrectTitle" duration-ms="13" started-at="2021-05-17T15:54:13Z" finished-at="2021-05-17T15:54:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitleForCorrectTitle -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testClassPackage.VerifyTitleTest@4883b407]" name="closeBrowser" is-config="true" duration-ms="4168" started-at="2021-05-17T15:54:13Z" finished-at="2021-05-17T15:54:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="launchBrowserAndGetURL()[pri:0, instance:testClassPackage.VerifyTitleTest@4883b407]" name="launchBrowserAndGetURL" is-config="true" duration-ms="5647" started-at="2021-05-17T15:54:17Z" finished-at="2021-05-17T15:54:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserAndGetURL -->
+        <test-method status="PASS" signature="verifyTVPageTitleForCorrectTitle()[pri:0, instance:testClassPackage.VerifyTitleTest@4883b407]" name="verifyTVPageTitleForCorrectTitle" duration-ms="16058" started-at="2021-05-17T15:54:23Z" finished-at="2021-05-17T15:54:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTVPageTitleForCorrectTitle -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testClassPackage.VerifyTitleTest@4883b407]" name="closeBrowser" is-config="true" duration-ms="90" started-at="2021-05-17T15:54:39Z" finished-at="2021-05-17T15:54:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testClassPackage.VerifyTitleTest -->
+      <class name="testClassPackage.VerifyLoginTest">
+        <test-method status="PASS" signature="launchBrowserAndGetURL()[pri:0, instance:testClassPackage.VerifyLoginTest@5622fdf]" name="launchBrowserAndGetURL" is-config="true" duration-ms="5490" started-at="2021-05-17T15:53:44Z" finished-at="2021-05-17T15:53:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserAndGetURL -->
+        <test-method status="PASS" signature="verifyLoginForCorrectCredentials()[pri:0, instance:testClassPackage.VerifyLoginTest@5622fdf]" name="verifyLoginForCorrectCredentials" duration-ms="6411" started-at="2021-05-17T15:53:49Z" finished-at="2021-05-17T15:53:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginForCorrectCredentials -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testClassPackage.VerifyLoginTest@5622fdf]" name="closeBrowser" is-config="true" duration-ms="160" started-at="2021-05-17T15:53:56Z" finished-at="2021-05-17T15:53:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testClassPackage.VerifyLoginTest -->
+    </test> <!-- VerifySmokeTest -->
+  </suite> <!-- VerifySmokeTestSuite -->
+</testng-results>

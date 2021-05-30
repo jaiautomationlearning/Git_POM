@@ -36,6 +36,7 @@ public class VerifyLoginTest extends BaseTest {
 		MyAccountPage ap = lp.clickOnLoginButton();
 		String AccountPageTitle = ap.getCurrentPageTitle();
 		Assert.assertEquals(AccountPageTitle, "My Account");
+		//Writing Comments
 		//Assert.assertEquals(AccountPageTitle, "My Account");
 		Thread.sleep(4000);
 		
